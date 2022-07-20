@@ -19,9 +19,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 #define VENDOR_ID       0x60E5
-#define PRODUCT_ID      0x6001
+#define PRODUCT_ID      0x6002
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    sugengz
+#define MANUFACTURER    SUGENGZ
 #define PRODUCT         KAWUNG65
 
 /* key matrix size */
@@ -46,7 +46,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
 
-#define USB_MAX_POWER_CONSUMPTION 100
+#define USB_MAX_POWER_CONSUMPTION 500
 
 /*
  * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.
@@ -59,7 +59,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define RGB_DI_PIN D0
 #ifdef RGB_DI_PIN
-#define RGBLED_NUM 20
+#define RGBLED_NUM 24
 #define RGBLIGHT_HUE_STEP 8
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
